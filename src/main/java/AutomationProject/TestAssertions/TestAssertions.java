@@ -20,10 +20,8 @@ public class TestAssertions {
 
     public static void FinaLoginPageCheck() {
 
-        wait.until(ExpectedConditions.urlContains("http://www.phptravels.net/account/"));
         String LoginUrl = Driver.driver.getCurrentUrl();
-        Assert.assertEquals("http://www.phptravels.net/account/", LoginUrl);
-
+        Assert.assertEquals("https://www.phptravels.net/account/", LoginUrl);
     }
 
     public static void FinalLoginBookingPageCheck(){
@@ -34,10 +32,9 @@ public class TestAssertions {
     }
 
     public static void FinalHotelModulePageCheck() {
-
-        wait.until(ExpectedConditions.urlContains("http://www.phptravels.net/hotels/search/5/80-400/98/183-189"));
+        wait.until(ExpectedConditions.urlContains("https://www.phptravels.net/hotels/search/5/80-400/98/183-189"));
         String HotelModuleUrl = Driver.driver.getCurrentUrl();
-        Assert.assertEquals("http://www.phptravels.net/hotels/search/5/80-400/98/183-189", HotelModuleUrl);
+        Assert.assertEquals("https://www.phptravels.net/hotels/search/5/80-400/98/183-189", HotelModuleUrl);
     }
 
     public static void FinalCarModulePageCheck() {
@@ -60,10 +57,9 @@ public class TestAssertions {
 
 
     public static void FinalHotelBarPageCheck() {
-
-        wait.until(ExpectedConditions.urlContains("http://www.phptravels.net/hotels/detail/istanbul/alzer-hotel-istanbul/16-02-2019/25-08-2020/3/2"));
+        wait.until(ExpectedConditions.urlContains("https://www.phptravels.net/hotels/detail/istanbul/alzer-hotel-istanbul/16-02-2019/25-08-2020/3/2"));
         String HotelBarUrl = Driver.driver.getCurrentUrl();
-        Assert.assertEquals("http://www.phptravels.net/hotels/detail/istanbul/alzer-hotel-istanbul/16-02-2019/25-08-2020/3/2", HotelBarUrl);
+        Assert.assertEquals("https://www.phptravels.net/hotels/detail/istanbul/alzer-hotel-istanbul/16-02-2019/25-08-2020/3/2", HotelBarUrl);
     }
 
     public static void FinalFlightBarPageCheck() {

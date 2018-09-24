@@ -213,9 +213,7 @@ public class PickFilters {
         }
 
         public static void SearchByAirLines(int FilterNumber) {
-
-            driver.findElement(By.id("#body-section > div.listingbg > div > div.col-md-3 > div > div.panel-body > div:nth-child("+FilterNumber+") > div > div.icheckbox_square-grey > ins")).click();
-
+            driver.findElement(By.id("div.row:nth-child(8) > div:nth-child(1) > div:nth-child("+FilterNumber+") > ins:nth-child(2)")).click();
         }
     }
 
@@ -439,7 +437,7 @@ public class PickFilters {
 
                 //driver.findElement(By.linkText("Yes")).click();
 
-                Select PickUp = new Select(driver.findElement(By.cssSelector(".selectx")));
+                Select PickUp = new Select(driver.findElement(By.cssSelector("#collapse5 > div > select")));
                 PickUp.selectByVisibleText("Yes");
             }
 
@@ -448,7 +446,7 @@ public class PickFilters {
 
                 //driver.findElement(By.linkText("No")).click();
 
-                Select PickUp = new Select(driver.findElement(By.cssSelector(".selectx")));
+                Select PickUp = new Select(driver.findElement(By.cssSelector("#collapse5 > div > select")));
                 PickUp.selectByVisibleText("No");
             }
         }

@@ -17,7 +17,7 @@ public class LoginScenarioPost {
     @FindBy(how = How.CSS, using = ".panel-body > div:nth-child(2) > input:nth-child(2)")
     public WebElement PasswordField;
 
-    @FindBy(how = How.CSS, using = ".btn-action")
+    @FindBy(how = How.CSS, using = "button.btn:nth-child(2)")
     public WebElement LoginButton;
 
 

@@ -14,23 +14,23 @@ public class HomeSearchBarElements {
 
     //Modules SearchBars
 
-    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div > div.col-md-12 > ul > li:nth-child(1) > a")
+    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div.col-md-12 > ul > li:nth-child(1) > a")
 
     public WebElement HomeHotelsBar;
 
-    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div > div.col-md-12 > ul > li:nth-child(2) > a")
+    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div.col-md-12 > ul > li:nth-child(2) > a")
 
     public WebElement HomeFlightsBar;
 
-    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div > div.col-md-12 > ul > li:nth-child(4) > a")
+    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div.col-md-12 > ul > li:nth-child(4) > a")
 
     public WebElement HomeCarsBar;
 
-    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div > div.col-md-12 > ul > li:nth-child(3) > a")
+    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div.col-md-12 > ul > li:nth-child(3) > a")
 
     public WebElement HomeToursBar;
 
-    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div > div.col-md-12 > ul > li:nth-child(5) > a")
+    @FindBy(how = How.CSS, using = "#body-section > section > div.cell > div > div.col-md-12 > ul > li:nth-child(5) > a")
 
     public WebElement HomeVisaBar;
 
